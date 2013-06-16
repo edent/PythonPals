@@ -145,6 +145,7 @@ IndentationError: expected an indented block
 
 This time it was Penny's turn to swear.
 
+
 #### Can you work out where Penny and Poppy have gone wrong?
 
 "Wipe that grin off your face! Yes, [spacing and indentation are important in Python](http://www.secnetix.de/olli/Python/block_indentation.hawk). But generally it's fine if I line up my code just how I like it."
@@ -186,7 +187,6 @@ They checked and double checked what they had typed in.
 
 "Ready?" said Poppy.
 "Let's do it!" said Penny as she hit the enter key.
-
 
 #### Can *you* solve the Morse Code Mystery?
 
