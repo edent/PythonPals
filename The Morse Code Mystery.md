@@ -145,8 +145,7 @@ IndentationError: expected an indented block
 
 This time it was Penny's turn to swear.
 
-
-#### Can you work out where Penny and Poppy have gone wrong?
+####Can you work out where Penny and Poppy have gone wrong?
 
 "Wipe that grin off your face! Yes, [spacing and indentation are important in Python](http://www.secnetix.de/olli/Python/block_indentation.hawk). But generally it's fine if I line up my code just how I like it."
 
