@@ -81,7 +81,7 @@ morse = {  '.-'  :'A', '-...':'B', '-.-.':'C', '-..' :'D', '.'   :'E',
            '..-.':'F', '--.' :'G', '....':'H', '..'  :'I', '.---':'J'
         }
 </pre>
-<small>You can program the rest of the dictionary yourself.</small>
+#### Can you program the rest of the dictionary yourself?
 
 Poppy sighed, "Why on Earth have you bothered to line up all the letters?"
 "It helps me think," said Penny defensively, "I like it neat. Besides, Python doesn't care how I space things like that."
@@ -96,7 +96,8 @@ print morse[get_code]
 She ran the program.  As expected it asked her to type in a code.  She hit the sequence ".-" and hit enter.
 
 She was rewarded with a glowing "A" on the screen.
-<small>Make sure your program does the same.</small>
+
+#### Does your program does the same?
 
 "Good start," said Poppy. "But it's going to be a pain to type in every Morse character, then hit enter, then try to string the letters together."
 
@@ -144,7 +145,7 @@ IndentationError: expected an indented block
 
 This time it was Penny's turn to swear.
 
-<small>Can you work out where Penny and Poppy have gone wrong?</small>
+#### Can you work out where Penny and Poppy have gone wrong?
 
 "Wipe that grin off your face! Yes, [spacing and indentation are important in Python](http://www.secnetix.de/olli/Python/block_indentation.hawk). But generally it's fine if I line up my code just how I like it."
 
@@ -186,7 +187,7 @@ They checked and double checked what they had typed in.
 "Ready?" said Poppy.
 "Let's do it!" said Penny as she hit the enter key.
 
-<small>Can *you* solve the Morse Code Mystery?</small>
+#### Can *you* solve the Morse Code Mystery?
 
 ## Saving The Day
 
