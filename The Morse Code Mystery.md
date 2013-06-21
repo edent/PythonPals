@@ -40,7 +40,7 @@ A second later they were back on, but there was a strange burning smell in the r
 "Oh no! Cried Penny, "The router!"
 
 Where their Internet router had been was a smouldering lump of twisted plastic and metal.
-
+The girls flipped on the Pi 
 Poppy said a word which, if her mother had overheard her would have meant an instant reduction in pocket money.  "How will we find out what 'Morse Code' is if we can't get online?"
 
 The girls sat, stunned.  No Internet.  No Facebook. More importantly, no Wikipedia!
@@ -61,7 +61,7 @@ They plucked the dusty volume from the shelf and opened it up more-or-less at ra
 
 There, laid out in the pages of the encyclopedia was a guide to Morse Code.
 
-[![Intcode](//upload.wikimedia.org/wikipedia/commons/9/92/Intcode.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
+[![Intcode](http://commons.wikimedia.org/wiki/File%3AIntcode.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
 
 The girls flipped on the Pi and waited for it to boot.
 
@@ -137,15 +137,16 @@ Penny typed directly into Python again.
 </pre>
 But this time, when she hit enter, an error message popped up!
 <pre>
-  File "<stdin>", line 2
+  File "&lt;stdin>", line 2
     print item
         ^
 IndentationError: expected an indented block
-</stdin></pre>
+&lt;/stdin>
+</pre>
 
 This time it was Penny's turn to swear.
 
-####Can you work out where Penny and Poppy have gone wrong?
+#### Can you work out where Penny and Poppy have gone wrong?
 
 "Wipe that grin off your face! Yes, [spacing and indentation are important in Python](http://www.secnetix.de/olli/Python/block_indentation.hawk). But generally it's fine if I line up my code just how I like it."
 
