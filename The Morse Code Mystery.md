@@ -52,7 +52,8 @@ Poppy looked around the room forlornly.  The little study had been Poppy's dad's
 Penny suddenly chirruped, "Pops, what's the 'Encyclopedia Britannica'?" Pointing to an imposing set of books on a shelf.
 "No idea," sniffed Poppy despondently.
 "Only, and I know it was your dad's, but 'encyclopedia' sounds a bit like 'Wikipedia' and I wondered..."
-[![Ad Encyclopaedia-Britannica 05-1913](//upload.wikimedia.org/wikipedia/commons/d/d8/Ad_Encyclopaedia-Britannica_05-1913.jpg)](http://commons.wikimedia.org/wiki/File%3AAd_Encyclopaedia-Britannica_05-1913.jpg "By Encyclopedia Britannica (scanned by Infrogmation, pulished on en WP) [Public domain], via Wikimedia Commons")
+[![Ad Encyclopaedia-Britannica 05-1913](http://upload.wikimedia.org/wikipedia/commons/d/d8/Ad_Encyclopaedia-Britannica_05-1913.jpg)](http://commons.wikimedia.org/wiki/File%3AAd_Encyclopaedia-Britannica_05-1913.jpg "By Encyclopedia Britannica (scanned by Infrogmation, pulished on en WP) [Public domain], via Wikimedia Commons")
+
 "Of course! Quick, which one of the books has 'M' printed on the side?" Poppy smiled. It was rare to see her smile these days, and Penny relished the chance to cheer up her friend.
 
 They plucked the dusty volume from the shelf and opened it up more-or-less at random.  Its musty smell filled the room and they began flicking through the yellowing pages.
@@ -61,7 +62,7 @@ They plucked the dusty volume from the shelf and opened it up more-or-less at ra
 
 There, laid out in the pages of the encyclopedia was a guide to Morse Code.
 
-[![Intcode](http://commons.wikimedia.org/wiki/File%3AIntcode.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
+[![Intcode](http://upload.wikimedia.org/wikipedia/commons/e/e9/International_Morse_code.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
 
 The girls flipped on the Pi and waited for it to boot.
 
