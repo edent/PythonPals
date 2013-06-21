@@ -93,7 +93,7 @@ for line in lines:
 
 Her finger hovered over the keyboard. Just as she was about to run the program, Poppy interrupted.
 
-"Hang on. Why is 'donor_name' coming from chunk zero? Shouldn't it be from one - and the amount from chunk two?"
+"Hang on. Why is '`donor_name`' coming from chunk zero? Shouldn't it be from one - and the amount from chunk two?"
 
 "Ah," said Penny, "In Python - and most other languages - lists always start from zero."
 "That's dumb," said Poppy. 
@@ -102,7 +102,7 @@ Her finger hovered over the keyboard. Just as she was about to run the program, 
 "Well, think of the years. We're in the 2000s now.  The first year of the 2000 was - obviously - 2000. The second year was 2001, the third was 2002 and so on."
 "Oh!" said Poppy, as things clicked into place, "That makes sense... kinda..."
 "As I said, you get used to it. Now, where were we?"
-"Right, we want to say something like 'Dear donor_name, Thanks for your donation, blah blah blah, etc'"
+"Right, we want to say something like 'Dear `donor_name`, Thanks for your donation, blah blah blah, etc'"
 "You are _so eloquent_!" Penny's sarcasm flew out before she could stop herself.  She carried on typing, adding the following lines.
 
 <pre lang="python">
@@ -125,13 +125,13 @@ Her finger hovered over the keyboard. Just as she was about to run the program, 
    if float(donor_amount) > 10:
 </pre>
 
-"What does 'float' mean?" asked Poppy.
+"What does '`float`' mean?" asked Poppy.
 Penny turned in her chair to face her friend, "Ok, our Python code has read a string of text from the file, right?"
 "Yup"
 "So it thinks that '5' is the character '5' not the _number_ '5'."
 "Ah! So if you had '5'+'2' it would be '52'."
-"Bazinga! So, we need to 'cast' the character into the number. Think of it like casting a spell on someone to look like a frog."
-The light dawned on Poppy's face. "I see! So when you say 'float(donor_amount)' you're saying to Python 'Imagine that this is a number'"
+"Bazinga! So, we need to '[cast](http://www.cyberciti.biz/faq/python-convert-string-to-int-functions/)' the character into the number. Think of it like casting a spell on someone to look like a frog."
+The light dawned on Poppy's face. "I see! So when you say '`float(donor_amount)`' you're saying to Python 'Imagine that this is a number'"
 Penny nodded and carried on typing.
 
 <pre lang="python">
