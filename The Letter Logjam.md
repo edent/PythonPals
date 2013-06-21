@@ -44,7 +44,7 @@ Dom 15
 Erik 3.14
 ...
 </pre>
-([You can download the file to your computer](http://shkspr.mobi/blog/wp-content/uploads/2012/11/donors.txt))
+([You can download the file to your computer](https://github.com/edent/PythonPals/blob/master/donors.txt))
 
 The file kept on scrolling and scrolling.
 
