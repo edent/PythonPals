@@ -49,7 +49,7 @@ They looked at their phones but, as always they didn't have any credit.
 
 Poppy looked around the room forlornly.  The little study had been Poppy's dad's work area before he... Well. Just before.  She scanned the shelves looking for something which might help - even an old fashioned dial-up modem would do.
 
-Penny suddenly chirruped, "Pops, what's the 'Encyclopedia Britannica'?" Pointing to an imposing set of books on a shelf.
+Penny suddenly chirruped, "Pops, what's the 'Encyclopaedia Britannica'?" Pointing to an imposing set of books on a shelf.
 "No idea," sniffed Poppy despondently.
 "Only, and I know it was your dad's, but 'encyclopedia' sounds a bit like 'Wikipedia' and I wondered..."
 [![Ad Encyclopaedia-Britannica 05-1913](http://upload.wikimedia.org/wikipedia/commons/d/d8/Ad_Encyclopaedia-Britannica_05-1913.jpg)](http://commons.wikimedia.org/wiki/File%3AAd_Encyclopaedia-Britannica_05-1913.jpg "By Encyclopedia Britannica (scanned by Infrogmation, pulished on en WP) [Public domain], via Wikimedia Commons")
@@ -60,7 +60,7 @@ They plucked the dusty volume from the shelf and opened it up more-or-less at ra
 "Where's the search function on this thing?" joked Penny.
 "Möbius, Moomins, Mormon, Morse!"
 
-There, laid out in the pages of the encyclopedia was a guide to Morse Code.
+There, laid out in the pages of the encyclopaedia was a guide to Morse Code.
 
 [![Intcode](http://upload.wikimedia.org/wikipedia/commons/e/e9/International_Morse_code.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
 
