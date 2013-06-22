@@ -49,9 +49,9 @@ They looked at their phones but, as always they didn't have any credit.
 
 Poppy looked around the room forlornly.  The little study had been Poppy's dad's work area before he... Well. Just before.  She scanned the shelves looking for something which might help - even an old fashioned dial-up modem would do.
 
-Penny suddenly chirruped, "Pops, what's the 'Encyclopedia Britannica'?" Pointing to an imposing set of books on a shelf.
+Penny suddenly chirruped, "Pops, what's the 'Encyclopaedia Britannica'?" Pointing to an imposing set of books on a shelf.
 "No idea," sniffed Poppy despondently.
-"Only, and I know it was your dad's, but 'encyclopedia' sounds a bit like 'Wikipedia' and I wondered..."
+"Only, and I know it was your dad's, but 'encyclopaedia' sounds a bit like 'Wikipedia' and I wondered..."
 [![Ad Encyclopaedia-Britannica 05-1913](https://upload.wikimedia.org/wikipedia/commons/d/d8/Ad_Encyclopaedia-Britannica_05-1913.jpg)](http://commons.wikimedia.org/wiki/File:Ad_Encyclopaedia-Britannica_05-1913.jpg "By Encyclopedia Britannica (scanned by Infrogmation, published on en WP) [Public domain], via Wikimedia Commons")
 "Of course! Quick, which one of the books has 'M' printed on the side?" Poppy smiled. It was rare to see her smile these days, and Penny relished the chance to cheer up her friend.
 
