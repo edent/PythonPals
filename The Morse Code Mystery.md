@@ -2,14 +2,14 @@
 
 ## The Beachcombers
 
-The waves crashed angrily on the beach, and the rain seemed to come in from all directions.  A sudden gust blew a thin drizzle straight down Poppy's collar.
-"This weather is _foul_," she spat.
+The waves crashed angrily on the beach, and the rain seemed to come in from all directions.  A sudden gust blew a thin drizzle straight down Poppy's collar.  
+"This weather is _foul_," she spat.  
 "Just five more minutes," yelled Penny.
 
 Poppy collapsed herself until she was eye level with her friend Penny.  Even though Penny was the shorter of the two, she was hunched down on the beach anxiously glancing at the shoreline.
 
-"Penny, what are we doing here? It's cold, wet, and most importantly," she paused for dramatic effect, "We're going to miss the Food Network's 'Marzipan Marathon'!"
-Her friend giggled - neither of them could stand those TV cookery channels - but they had agreed there was something oddly compelling about watching a man trying to eat his body weight in cake.
+"Penny, what are we doing here? It's cold, wet, and most importantly," she paused for dramatic effect, "We're going to miss the Food Network's 'Marzipan Marathon'!"  
+Her friend giggled - neither of them could stand those TV cookery channels - but they had agreed there was something oddly compelling about watching a man trying to eat his body weight in cake.  
 "There!" Yelled Penny, pointing a little way down the shoreline. "I told you that interesting stuff gets washed up here when there's a storm. Grab it!"
 
 Despite being the older of the two friends, Penny was always being treated like Poppy's younger sister - so she relished in the chance to bark orders at her friend for once.
@@ -26,7 +26,7 @@ They both stared at the raggedy square of canvas.  It was peppered with strange 
 
 ## Pi Power
 
-"Will you be wanting some soup, girls?" asked Poppy's mum, Ada.  She had gotten used to both of them storming in and expecting to be fed.
+"Will you be wanting some soup, girls?" asked Poppy's mum, Ada.  She had gotten used to both of them storming in and expecting to be fed.  
 "No time Ada, thanks," said Penny breathlessly, "We've got to work out what this is."
 
 "Hmmm, looks like old fashioned Morse Code to me," said Ada after a moment's cursory examination of the cloth.  "Where on Earth did you find..."
@@ -39,8 +39,8 @@ A second later they were back on, but there was a strange burning smell in the r
 
 "Oh no! Cried Penny, "The router!"
 
-Where their Internet router had been was a smouldering lump of twisted plastic and metal.
-
+Where their Internet router had been was a smouldering lump of twisted plastic and metal.  
+The girls flipped on the Pi.  
 Poppy said a word which, if her mother had overheard her would have meant an instant reduction in pocket money.  "How will we find out what 'Morse Code' is if we can't get online?"
 
 The girls sat, stunned.  No Internet.  No Facebook. More importantly, no Wikipedia!
@@ -49,23 +49,24 @@ They looked at their phones but, as always they didn't have any credit.
 
 Poppy looked around the room forlornly.  The little study had been Poppy's dad's work area before he... Well. Just before.  She scanned the shelves looking for something which might help - even an old fashioned dial-up modem would do.
 
-Penny suddenly chirruped, "Pops, what's the 'Encyclopedia Britannica'?" Pointing to an imposing set of books on a shelf.
-"No idea," sniffed Poppy despondently.
-"Only, and I know it was your dad's, but 'encyclopedia' sounds a bit like 'Wikipedia' and I wondered..."
-[![Ad Encyclopaedia-Britannica 05-1913](//upload.wikimedia.org/wikipedia/commons/d/d8/Ad_Encyclopaedia-Britannica_05-1913.jpg)](http://commons.wikimedia.org/wiki/File%3AAd_Encyclopaedia-Britannica_05-1913.jpg "By Encyclopedia Britannica (scanned by Infrogmation, pulished on en WP) [Public domain], via Wikimedia Commons")
+Penny suddenly chirruped, "Pops, what's the 'Encyclopaedia Britannica'?" Pointing to an imposing set of books on a shelf.
+"No idea," sniffed Poppy despondently.  
+"Only, and I know it was your dad's, but 'encyclopedia' sounds a bit like 'Wikipedia' and I wondered..."  
+[![Ad Encyclopaedia-Britannica 05-1913](http://upload.wikimedia.org/wikipedia/commons/d/d8/Ad_Encyclopaedia-Britannica_05-1913.jpg)](http://commons.wikimedia.org/wiki/File%3AAd_Encyclopaedia-Britannica_05-1913.jpg "By Encyclopedia Britannica (scanned by Infrogmation, pulished on en WP) [Public domain], via Wikimedia Commons")
+
 "Of course! Quick, which one of the books has 'M' printed on the side?" Poppy smiled. It was rare to see her smile these days, and Penny relished the chance to cheer up her friend.
 
-They plucked the dusty volume from the shelf and opened it up more-or-less at random.  Its musty smell filled the room and they began flicking through the yellowing pages.
-"Where's the search function on this thing?" joked Penny.
+They plucked the dusty volume from the shelf and opened it up more-or-less at random.  Its musty smell filled the room and they began flicking through the yellowing pages.  
+"Where's the search function on this thing?" joked Penny.  
 "Möbius, Moomins, Mormon, Morse!"
 
-There, laid out in the pages of the encyclopedia was a guide to Morse Code.
+There, laid out in the pages of the encyclopaedia was a guide to Morse Code.
 
-[![Intcode](//upload.wikimedia.org/wikipedia/commons/9/92/Intcode.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
+[![Intcode](http://upload.wikimedia.org/wikipedia/commons/e/e9/International_Morse_code.png)](http://commons.wikimedia.org/wiki/File%3AIntcode.png "By Rhey T. Snodgrass and Victor F. Camp [Public domain], via Wikimedia Commons")
 
 The girls flipped on the Pi and waited for it to boot.
 
-"The most important thing to consider when programming," said Poppy doing her very best imitation of Mr Cartwright their inexcusably dull IT teacher.
+"The most important thing to consider when programming," said Poppy doing her very best imitation of Mr Cartwright their inexcusably dull IT teacher.  
 "...is planning!" said Penny, finishing her friend's sentence.
 
 "We want a program which will let us type in each letter of Morse Code and then show us the English translation."
@@ -83,9 +84,9 @@ morse = {  '.-'  :'A', '-...':'B', '-.-.':'C', '-..' :'D', '.'   :'E',
 </pre>
 #### Can you program the rest of the dictionary yourself?
 
-Poppy sighed, "Why on Earth have you bothered to line up all the letters?"
-"It helps me think," said Penny defensively, "I like it neat. Besides, Python doesn't care how I space things like that."
-"Fine! Let's do a quick test to see if it works," said Poppy.
+Poppy sighed, "Why on Earth have you bothered to line up all the letters?"  
+"It helps me think," said Penny defensively, "I like it neat. Besides, Python doesn't care how I space things like that."  
+"Fine! Let's do a quick test to see if it works," said Poppy.  
 "Right, I'll ask the user to type a single letter of Morse Code. Then it's really easy to look it up in the dictionary," said Penny.
 
 <pre lang="python">
@@ -103,7 +104,7 @@ She was rewarded with a glowing "A" on the screen.
 
 Penny thought for a moment. She knew she could come up with something clever.
 
-"How about we read in the string we type in, then break it up based on where the spaces are?" She said tentatively.
+"How about we read in the string we type in, then break it up based on where the spaces are?" She said tentatively.  
 Poppy looked confused, "What do you mean, Pen?"
 
 Penny ran Python directly so she could show what she was thinking
@@ -126,7 +127,7 @@ She gently thumbed the enter key.
 
 "Yes!" Shouted both girls simultaneously.
 
-"So now we will have each Morse Letter in a list, then we want to look it up in the dictionary."
+"So now we will have each Morse Letter in a list, then we want to look it up in the dictionary."  
 "That's right. Luckily it's super simple to do something on every item in a list - look,"
 
 Penny typed directly into Python again.
@@ -137,15 +138,16 @@ Penny typed directly into Python again.
 </pre>
 But this time, when she hit enter, an error message popped up!
 <pre>
-  File "<stdin>", line 2
+  File "&lt;stdin>", line 2
     print item
         ^
 IndentationError: expected an indented block
-</stdin></pre>
+&lt;/stdin>
+</pre>
 
 This time it was Penny's turn to swear.
 
-####Can you work out where Penny and Poppy have gone wrong?
+#### Can you work out where Penny and Poppy have gone wrong?
 
 "Wipe that grin off your face! Yes, [spacing and indentation are important in Python](http://www.secnetix.de/olli/Python/block_indentation.hawk). But generally it's fine if I line up my code just how I like it."
 
@@ -184,7 +186,7 @@ for item in code_list:
 
 They checked and double checked what they had typed in.
 
-"Ready?" said Poppy.
+"Ready?" said Poppy.  
 "Let's do it!" said Penny as she hit the enter key.
 
 #### Can *you* solve the Morse Code Mystery?
