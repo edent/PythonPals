@@ -4,7 +4,7 @@
 
 The mood in the school assembly was grim.  Mrs Hopper, the Head Teacher, had a face like stone.
 
-"I'm sorry childen," she said, "but we simply can't afford to keep the school library open any more."
+"I'm sorry children," she said, "but we simply can't afford to keep the school library open any more."
 
 Poppy's heart sank.  She'd spent so long in the school's library.  It was the perfect place to hang out after school, or during soggy lunchtimes, or just when she just needed a break from the world. Some of her best friends were characters from books...
 
@@ -72,7 +72,7 @@ Penny scrabbled around the library and found a keyboard and helped her friend se
 
 "You're just making things up now," said Penny defensively.  "Who is Jason and what's his ape eye?"
 
-Poppy stiffled her giggles, "An API is an Application Programming Interface.  It's a way for computers to talk to each other.  One computer sends a specially formatted code to another computer, that second computer replies with another code the computer can read."
+Poppy stifled her giggles, "An API is an Application Programming Interface.  It's a way for computers to talk to each other.  One computer sends a specially formatted code to another computer, that second computer replies with another code the computer can read."
 
 Penny's eyes lit up, "I see! So the code is simple enough for a computer to understand. But, wait, I still don't understand who Jason is...?"
 
@@ -96,7 +96,7 @@ https://www.googleapis.com/books/v1/volumes?q=isbn:
 
 At random, Poppy picked up a slim volume from the English section and carefully read out its ISBN "014018385X"
 
-Penny's fingers defly flew over the cheap beige keyboard. "Ok, so we want to ask Google for the information and then display it on screen."  
+Penny's fingers deftly flew over the cheap beige keyboard. "Ok, so we want to ask Google for the information and then display it on screen."  
 
 <pre lang="python">
 import urllib2
@@ -105,7 +105,7 @@ print urllib2.urlopen('https://www.googleapis.com/books/v1/volumes?q=isbn:014018
 
 #### What happens when you run the code?
 
-"Whoa!" Exclaied Penny, "*That's* JSON?"
+"Whoa!" Exclaimed Penny, "*That's* JSON?"
 
 "Pretty much," said Poppy after glancing at the text which had filled the screen. "Want me to decipher it for you?"
 
@@ -152,7 +152,7 @@ This time it was Penny's turn to push her friend aside and type.
 
 "How's that?"
 
-Poppy gave it a breif look and said "I think you've got it.  There only one other, teeny, tiny, minor complication."
+Poppy gave it a brief look and said "I think you've got it.  There only one other, teeny, tiny, minor complication."
 
 Penny sighed dramatically.  There was always some spanner in the works.
 
