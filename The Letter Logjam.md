@@ -186,6 +186,7 @@ Poppy peered at the keyboard.  She cleaned her glasses and peered again. "So whe
 "Nifty. Oh, and not to criticise, but you left off the &pound; symbol on the donor amount."
 
 Penny deftly changed the line to read:
+
 <pre lang="python">
    letter += "donation of £" + donor_amount
 </pre>
@@ -207,6 +208,7 @@ Poppy considered this, "So we need to tell it what characters we'll be using?"
 <pre lang="python">
 # This Python file uses the following encoding: utf-8
 </pre>
+
 "That ought to do it."
 
 "So, we've got their name, a message, and how much they donated. What else is there?
