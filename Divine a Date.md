@@ -6,7 +6,7 @@ Penny was in a right grouch.  Her voice wobbled as she unloaded her woes on to h
 
 "Oh sweetie," said Poppy, "I hate to say this, but you're sounding like a right stereotypical teenager!"
 
-Penny cracked half a smile and blew her nose.  "I know," she said "But it's true. What _can't_ I date him?"
+Penny cracked half a smile and blew her nose.  "I know," she said "But it's true. Why _can't_ I date him?"
 
 Poppy sighed.  Penny's mum Ada had banned her from seeing this boy - and it was causing no end of bother.
 
