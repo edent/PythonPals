@@ -60,7 +60,7 @@ print date.today()
 
 Penny loved explaining to her friend, she relished the look on her face when she finally understood something.
 
-"So, the Americans write the date with the month first - like 12/11 means December the Twelfth. But to Europeans, it means Twelfth of November.  In order not to confuse anyone, most computers represent the data as 'YEAR-MONTH-DAY'."
+"So, the Americans write the date with the month first - like 12/11 means December the Eleventh. But to Europeans, it means Twelfth of November.  In order not to confuse anyone, most computers represent the data as 'YEAR-MONTH-DAY'."
 
 "Oh, that makes a funny kind of sense.  So, that's today's date - how do we create a specific date?"
 
