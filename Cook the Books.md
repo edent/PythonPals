@@ -208,7 +208,7 @@ book_data = json.load(urllib2.urlopen('https://www.googleapis.com/books/v1/volum
 
 #### Try to print book_data to the screen
 
-Penny stared at the screen, rubbed her eyes, and stared again. "Well, it's something. But how do we get the title out of this mess."
+Penny stared at the screen, rubbed her eyes, and stared again. "Well, it's something. But how do we get the title out of this mess?"
 
 "Oh, that's easy," said Poppy with a self-confident air. "Now we've got the JSON data we can pretty easily get anything we want out of it.  So, the JSON has a load of `items`, we want the first one, then we want the `volumeInfo` which contains the `title`."
 
