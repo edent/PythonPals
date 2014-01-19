@@ -1,12 +1,12 @@
-# Die Python-Freundinnen
+# Die Python-Freundinnen und der Briefstau
 
 Poppys Mutter Ada war **nicht** erfreut.
 
 "Das interessiert mich nicht," schrie sie ins Telefon, "Wieso ist es immer ich, die es wieder einrenken muss?"
 
-Sie tobte weiter. Penny und Poppy saßen im Wohnzimmer. Obwohl der Fernseher auf voller Lautstärke lief, konnte sie Teile der Unterhaltung mithören.
+Sie tobte weiter. Penny und Poppy saßen im Wohnzimmer. Obwohl der Fernseher auf voller Lautstärke lief, konnten sie Teile der Unterhaltung mithören.
 
-Plötzlich ging die Tür auf und Ada stürmte herein. "Was macht ihr zwei gerade?, " fragte sie.
+Plötzlich ging die Tür auf und Ada stürmte herein. "Was macht ihr zwei gerade?" fragte sie.
 
 "Nur Fernsehen," sagte Poppy. "Es ist die Folge, wo sie..." aber bevor sie ihren Satz noch zu Ende bringen konnte, unterbrach ihre Mutter sie.
 
@@ -57,13 +57,13 @@ Die Datei scrollte und scrollte.
 
 Poppy kreischte: "Das sind ja hunderte! Das haben wir nie im Leben fertig, bis meine Mutter zurück kommt. Nicht mal du tippst so schnell."
 
-"Poppy, " sagte Penny. "Ich will ja nicht gemein sein, aber du stehst echt auf der Leitung." Laut und ganz langsam sagte sie "Wir haben einen Computer, du Nuß! Wir lassen den Pi für uns die Arbeit erledigen."
+"Poppy," sagte Penny. "Ich will ja nicht gemein sein, aber manchmal stehst du echt auf der Leitung." Laut und ganz langsam sagte sie "Wir haben einen Computer, du Nuß! Wir lassen den Pi für uns die Arbeit erledigen."
 
 Poppy schaute bedröppelt. "Oh...ja. Vermutlich können wir das mit Python in ein paar Minuten schaffen."
 
-"Partner, damit hast du den Nagel auf den Kopf getroffen," sagte Penny gedehnt.
+"Miss Poppy, damit haben Sie den Nagel auf den Kopf getroffen," sagte Penny geziert.
 
-Als sie fertig gelacht hatten, hockte sich Penny mit angezogenen Beinen auf einen Stuhl. Poppy kletterte aufs Fensterbrett um gleichzeitig auf den Bildschirm und ihre Freundin zu sehen.
+Als sie fertig gelacht hatten, hockte sich Penny mit angezogenen Beinen auf einen Stuhl. Poppy kletterte aufs Fensterbrett, um gleichzeitig auf den Bildschirm und ihre Freundin zu sehen.
 
 Poppy fing an: "Nun, teilen wir das Ganze mal auf in leicht handlebare Teile. Wir haben eine Datei mit Namen und Geldbeträgen, korrekt?"
 
@@ -93,18 +93,18 @@ lines = textfile.readlines()
 
 for line in lines:
    chunks = line.split()
-   donor_name = chunks[0]
-   donor_amount = chunks[1]
-   print donor_name
+   spender_name = chunks[0]
+   spender_betrag = chunks[1]
+   print spender_name
 </pre>
 
 
 
-"So", sagte sie. "Wir öffnen die Datei. Wir holen uns jede Zeile. Wir teilen die Zeile am Leerzeichen auf. Von diesen zwei Teilen nennen wir den ersten donor_name und den zweiten donor_amount. Nur um sicherzugehen, drucken wir noch den Namen des Spenders."
+"So", sagte sie. "Wir öffnen die Datei. Wir holen uns jede Zeile. Wir teilen die Zeile am Leerzeichen auf. Von diesen zwei Teilen nennen wir den ersten spender_name und den zweiten spender_betrag. Nur um sicherzugehen, drucken wir noch den Namen des Spenders."
 
 Ihre Finger schwebten über der Tastatur. Gerade als sie wieder das Programm starten wollte, unterbrach Poppy sie.
 
-"Halt mal. Warum ist donor_name Teil Null? Sollte das nicht Eins - und der Betrag Zwei sein?"
+"Halt mal. Warum ist spender_name Teil Null? Sollte das nicht Eins - und der Betrag Zwei sein?"
 
 "Ja," sagte Penny. "In Python - und den meisten anderen Programmiersprachen - fangen Listen bei 0 an."
 
@@ -120,13 +120,13 @@ Ihre Finger schwebten über der Tastatur. Gerade als sie wieder das Programm sta
 
 "Wie ich sagte, man gewöhnt sich dran. Jetzt, wo waren wir?"
 
-"Wir wollten so etwas schreiben wie "Liebe(r) donor_name, danke für deine Spende, bla blah blah etc."
+"Wir wollten so etwas schreiben wie "Liebe(r) spender_name, danke für deine Spende, bla blah blah etc."
 
-"Du bist soo beredt!" entschlüpfte Penny sarkastisch. Sie tippte weiter und ergänzte die folgenden Zeilen.
+"Du bist soo beredt!" kommentierte Penny sarkastisch. Sie tippte weiter und ergänzte die folgenden Zeilen.
 
 <pre lang="python">
-   letter = "Liebe(r) " + donor_name + ", "
-   letter += "danke für deine Spende von " + donor_amount
+   letter = "Liebe(r) " + spender_name + ", "
+   letter += "danke für deine Spende von " + spender_betrag
    print letter
 </pre>
 
@@ -150,7 +150,7 @@ Ihre Finger schwebten über der Tastatur. Gerade als sie wieder das Programm sta
 
 <pre lang="python">
    letter += "Danke für deine "
-   if float(donor_amount) > 10:
+   if float(spender_betrag) > 10:
 </pre>
 
 "Was bedeutet 'float'?" fragte Poppy.
@@ -161,19 +161,19 @@ Penny drehte sich, so dass sie ihrer Freundin ins Gesicht schaute. "Ok, unser Py
 
 "Also denkt es, dass '5' das Zeichen '5' ist und nicht die _Zahl_ '5'."
 
-"Ah! Wenn du also '5'+'2' hättest, ergäbe das '52'."
+"Ah! Wenn du also '5'+'2' addierst, ergäbe das '52'."
 
 "Bingo! Deshalb müssten wir das Zeichen in eine Zahl 'casten'. Stell dir das als Zauberspruch vor, mit dem du jemand in einen Frosch verwandelst."
 
-Poppy ging ein Licht auf. "Kapiert! Wenn du also '`float(donor_amount)`' schreibst, sagst du Python 'Stell dir das als Zahl vor'"
+Poppy ging ein Licht auf. "Kapiert! Wenn du also '`float(spender_betrag)`' schreibst, sagst du Python 'Stell dir das als Zahl vor'"
 
 Penny nickte und tippte weiter.
 
 <pre lang="python">
    letter += "Danke für deine "
-   if float(donor_amount) > 10:
+   if float(spender_betrag) > 10:
       letter += "großzügige "
-   letter += "Spende von " + donor_amount
+   letter += "Spende von " + spender_betrag
    print letter
 </pre>
 
@@ -181,14 +181,14 @@ Penny nickte und tippte weiter.
 
 Poppy lugte auf die Tastatur. Sie putzte ihre Brille und schaute nochmal. "Und wo ist das Größer-Gleich-Zeichen?"
 
-"Das gibt es nicht. Du musst einfach = danach tippen, wie `>=` oder `<=`"
+"Das gibt es nicht. Du musst einfach `=` danach tippen, wie `>=` oder `<=`"
 
 "Schick. Upps, keine Kritik, aber du hast das Euro-Zeichen nach dem Betrag vergessen."
 
 Flink änderte Penny die Zeile zu:
 
 <pre lang="python">
-   letter += "Spende von " + donor_amount + "€"
+   letter += "Spende von " + spender_betrag + " €"
 </pre>
 
 Aber als sie diesmal das Programm starteten, passierte etwas unerwartetes.
@@ -201,7 +201,7 @@ Die Mädchen fluchten im Chor. Immmer kam ihnen so etwas dazwischen.
 
 "Computer" meinte Penny, "sind manchmal richtig dämlich. Sie hassen es, wenn man komische Zeichen benutzt."
 
-Poppy dachte über dies nach: "Dann müssen wir ihm also verraten, welche Zeichen wir benützen?"
+Poppy dachte darüber nach: "Dann müssen wir ihm also verraten, welche Zeichen wir benützen?"
 
 "Sehr richtig. Wir brauchen genau eine Zeile am Anfang unseres Programms." Penny scrollte hoch und tippte die magische Formel.
 
@@ -219,9 +219,9 @@ Poppy dachte über dies nach: "Dann müssen wir ihm also verraten, welche Zeiche
 
 "Oder wir könnten weiter fernsehen!"
 
-"Nein. Wenn schon, dann richtig."
+"Nein. Wenn schon, dann machen wir es richtig."
 
-"oookay! schnupfte Penny. "Wieviel kostet eine Impfung?"
+"Ookay!" schnupfte Penny. "Wieviel kostet eine Impfung?"
 
 Poppy kramte auf dem Schreibtisch ihrer Mutter, alle juristischen Sachen dort gezielt ignorierend, bis sie das Blatt fand, nach dem sie gesucht hatte.
 
@@ -230,9 +230,9 @@ Poppy kramte auf dem Schreibtisch ihrer Mutter, alle juristischen Sachen dort ge
 "Das ist einfach," sagte Penny. "Wir erzeugen eine Variabe für die Impfkosten und teilen den Spendenbetrag dadurch.
 
 <pre lang="python">
-vaccine_cost = 1.34
-vaccines_bought = float(donor_amount) / vaccine_cost
-letter += ".  Damit konnten wir " + str(vaccines_bought) + " Impfungen bezahlen."
+impfung_kosten = 1.34
+impfungen_gekauft = float(spender_betrag) / impfung_kosten
+letter += ".  Damit konnten wir " + str(impfungen_gekauft) + " Impfungen bezahlen."
 </pre>
 
 "Jetzt müssen wir noch diese Zahl zurück in einen String casten, den wir dann in den Brief setzen." sagte Penny.
@@ -251,12 +251,12 @@ Penny startete das Programm. Sie starrte auf die Ausgabe, rümpfte ihre Nase und
 
 "Dumme Menschen," murmelte Penny.
 
-"Also, können wir das nicht einfach abrunden mit der 'round()'-Funktion?" sagte Poppy, während sie das Streben ihrer Freundin, die Menschheit zu transzendieren und mit den Maschinen eins zu werden, demonstrativ ignorierte.
+"Also, können wir das nicht einfach abrunden mit der 'round()'-Funktion?" sagte Poppy, während sie die Sehnsucht ihrer Freundin, die Menschheit zu transzendieren und mit den Maschinen eins zu werden, demonstrativ ignorierte.
 
 Penny tippte los.
 
 <pre lang="python">
-round( float(donor_amount) / vaccine_cost )
+round( float(spender_betrag) / impfung_kosten )
 </pre>
 
 "Damit haben wir alles, oder?" fragte Penny traurig.
@@ -269,7 +269,7 @@ Ein Weilchen später kam Ada zur Tür herein, in sichtlich besserer Laune.
 
 "Hier, Mama," rief Poppy.
 
-"Was zum Teufel macht ihr vor dem Fernseher?" sagte Ada, die plötzlich sauer aussah. "Ich dachte ich hätte euch gebeten..."
+"Was zum Teufel macht ihr vor dem Fernseher?" schimpfte Ada. "Ich dachte ich hätte euch gebeten..."
 
 "Chill mal, Mama," unterbrach sie ihre Tochter. "Alles erledigt."
 
