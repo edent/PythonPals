@@ -156,7 +156,7 @@ Penny typed directly into Python again.
 ... print item
 </pre>
 
-But this time, when she hit enter, an error message popped up!
+But when she hit enter, an error message popped up!
 
 <pre>
   File "&lt;stdin&gt;", line 2
@@ -165,13 +165,13 @@ But this time, when she hit enter, an error message popped up!
 IndentationError: expected an indented block
 </pre>
 
-This time it was Penny's turn to swear.
+Now it was Penny's turn to swear.
 
 #### Can you work out where Penny and Poppy have gone wrong?
 
 "Wipe that grin off your face! Yes, [spacing and indentation are important in Python](http://www.secnetix.de/olli/Python/block_indentation.hawk) . But generally it's fine if I line up my code just how I like it."
 
-She tried again. This time hitting the spacebar as hard as she thought it could stand.
+She tried again and hit the spacebar as hard as she thought it could stand.
 
 <pre lang="python">
 >>> list_of_words = "This is a test".split()
