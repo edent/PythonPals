@@ -10,6 +10,8 @@ I would love it if you were to contribute a story.  Write your own adventure for
 
 Submit new stories as a pull request or - if you spot a typo, please raise a bug report.
 
+Also, if you're an illustrator or graphic artist, these books need your help too!
+
 Story Parameters
 ================
 
